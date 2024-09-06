@@ -11,7 +11,9 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "next": "14.2.6",
+    "@jankenpon/core": "*",
+    "@jankenpon/ui": "*"
   },
   "devDependencies": {
     "typescript": "^5",

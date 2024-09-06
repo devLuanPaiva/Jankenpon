@@ -1,81 +1,72 @@
-# Turborepo starter
+# Jankenpon 🪨🧾✂️
 
-This is an official starter Turborepo.
+Jankenpon é um projeto em desenvolvimento que implementa o clássico jogo Pedra-Papel-Tesoura na web. Atualmente, a versão web permite que o usuário jogue contra um algoritmo, com a possibilidade de expandir para incluir mais funcionalidades no futuro.
 
-## Using this example
+## 🕹️ Funcionalidade Atual
 
-Run the following command:
+- **Página Única:** O projeto possui uma única página onde o usuário é o Jogador 1 e o algoritmo é o Jogador 2.
+- **Escolha do Usuário:** O usuário pode selecionar entre Pedra, Papel ou Tesoura.
+- **Resultado do Jogo:** O resultado é exibido indicando se houve um empate, se o Jogador 1 venceu ou se o Jogador 2 venceu.
 
-```sh
-npx create-turbo@latest
-```
+## 👨‍💻 Tecnologias Utilizadas
 
-## What's inside?
+- **Next.js:** Utilizado para construir a interface frontend.
+- **TurboRepo:** Utilizado para organizar o projeto seguindo princípios de Orientação a Objetos e Arquitetura Limpa.
+- **Git Flow:** Seguido para gerenciamento de branches e versionamento do projeto.
 
-This Turborepo includes the following packages/apps:
+## 🚀 Funcionalidades Futuras
 
-### Apps and Packages
+- **Placar:** Exibir o placar do jogo para mostrar as vitórias e derrotas.
+- **Novas Funcionalidades:** Planejado para incluir novas funcionalidades e melhorias no jogo, como múltiplos jogadores, níveis de dificuldade e estatísticas de jogo.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+## 🚧 Status do Projeto
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+O projeto está em desenvolvimento e atualmente não possui testes de software implementados. Testes serão adicionados em uma fase futura para garantir a qualidade e a funcionalidade do código.
 
-### Utilities
+## 🧩 Como Contribuir
 
-This Turborepo has some additional tools already setup for you:
+Contribuições são bem-vindas! Se você deseja ajudar no desenvolvimento do projeto, siga estes passos:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua nova funcionalidade ou correção (`git checkout -b feature/nova-funcionalidade`).
+3. Faça suas alterações e commit (`git commit -am 'Adiciona nova funcionalidade'`).
+4. Faça push para a branch (`git push origin feature/nova-funcionalidade`).
+5. Envie um Pull Request para revisão.
 
-### Build
+## 🎰Como Executar o Projeto
 
-To build all apps and packages, run the following command:
+Para rodar o projeto localmente, siga estas etapas:
 
-```
-cd my-turborepo
-pnpm build
-```
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/jankenpon.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd jankenpon
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
 
-### Develop
+Acesse o projeto em [http://localhost:3000](http://localhost:3000).
 
-To develop all apps and packages, run the following command:
+## 🧾 Licença
 
-```
-cd my-turborepo
-pnpm dev
-```
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-### Remote Caching
+## 📲 Contato
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+- Email: devluanpaiva@gmail.com
+- LinkedIn: [devLuanpaiva](https://www.linkedin.com/in/devluanpaiva/)
 
-```
-cd my-turborepo
-npx turbo login
-```
+---
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Obrigado por conferir o Jankenpon! Fique atento às atualizações e novas funcionalidades que serão adicionadas em breve.
