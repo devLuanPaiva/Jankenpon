@@ -1,4 +1,5 @@
-import { useGameContext } from "@/data/hooks/useGameContext";
+'use client'
+import  useGameContext  from "@/data/hooks/useGameContext";
 import { Movement } from "@jankenpon/core";
 
 export function Game() {
