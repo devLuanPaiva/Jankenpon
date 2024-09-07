@@ -23,7 +23,7 @@ export function Game() {
 
     return (
         <main className="p-4 flex flex-col gap-5 items-center justify-start h-full min-w-[50%]">
-            <section className="w-full flex justify-around gap-5">
+            <section className="w-full flex justify-around gap-5 max-sm:flex-col items-center">
                 <button onClick={() => handePlayer1Move(Movement.rock)} className="w-32 h-32 p-1 bg-[#4D0F43] rounded-lg flex flex-col items-center text-white justify-center hover:opacity-80 transition-opacity">
                     PEDRA
                     <Image src={pedra} alt="pedra" className="h-24 object-cover rounded-lg "/>
